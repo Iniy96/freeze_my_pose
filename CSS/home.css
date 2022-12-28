@@ -85,33 +85,33 @@ h1{
 @media (max-width: 600px){
   body {
     background: linear-gradient(
-        to right,
-        rgb(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        to bottom,
+        rgb(255, 255, 255, 0) 50%,
+        rgba(0, 0, 0,0.5) ,
+        rgba(0, 0, 0,0.8) ,
+        rgba(0, 0, 0) 100%
       ),
-      url(/Media/Bg.jpg);
+      url(/Media/profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     min-height: 100vh;
-    background: grey;
   }
   main {
     
     left: 50%;
-    top: 50%;
+    top: 65%;
     transform: translate(-50%,-50%);
     text-align: center;
   }
   main p{
     
-    font-size: 1em;
+    font-size: 1.3em;
     
   }
   h1{
     padding: 0.2em 0.1em;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 900;
     font-display: bold;
     background: linear-gradient(
