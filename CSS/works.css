@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Palanquin+Dark&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+.headh {
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin: 0 auto;
+    
+    padding-bottom: 5px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid rgb(114, 113, 113);
+    width:40%;
+}
+.gal{
+    font-family: Arial, Helvetica, sans-serif;
+    color :gray;
+}
+
+.Album-designs img{
+    width: 200px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box .dream{
+    display: flex;
+    flex-direction: column;
+    width:32.5%;
+    align-items: center;
+}
+.box .dream img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.button a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(131, 128, 128);
+    padding:8px 30px;
+    margin:auto;   
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 1em;
+    font-weight: bolder;
+}
+.button{
+    margin: 30px auto 50px auto;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+@media only screen and (max-width: 769px){
+    .box{
+       
+        flex-direction: column;
+        
+    }
+    .box .dream{
+       
+        width:97%;
+        
+    }
+}
+
