@@ -82,6 +82,8 @@ h1{
   letter-spacing: 0.1em;
 }
 
+/* ********************************************************** */
+
 @media (max-width: 600px){
   body {
     background: linear-gradient(
