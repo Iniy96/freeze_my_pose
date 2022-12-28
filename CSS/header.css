@@ -51,7 +51,7 @@ body {
   position: relative;
 }
 .navbar ul li a:hover {
-    color: gray;
+    color: rgb(182, 182, 182);
 }
  .navbar ul li a::after{
     content: "";

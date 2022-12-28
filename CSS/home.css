@@ -11,9 +11,74 @@ ul {
 }
 /* Boiler Plate done */
 body {
-  background:linear-gradient(to right,rgb(255, 255, 255,0),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Media/Bg.jpg);
+  background: linear-gradient(
+      to right,
+      rgb(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/Media/Bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
 }
+p,
+h1 {
+  font-family: "Noto Sans", sans-serif;
+}
+main {
+  position: absolute;
+  left: 53%;
+  padding-top: 28vh;
+  text-align: center;
+}
+.iniy {
+  font-style: italic;
+  font-size: 1.8em;
+  position: relative;
+ color: whitesmoke;
+ letter-spacing: 0.06em;
+ margin-left: 0.3em;
+}
+.iniy::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(194, 106, 115),
+    rgb(190, 70, 108),
+    rgb(181, 17, 74)
+  );
+}
+
+main p{
+  color: whitesmoke;
+  font-size: 1.8em;
+  word-spacing: 0.3em;
+  
+}
+h1{
+  padding: 0.2em 0.1em;
+  font-size: 4.5em;
+  font-weight: 900;
+  font-display: bold;
+  background: linear-gradient(
+    45deg,
+    rgb(198, 50, 65),
+    rgb(190, 70, 108),
+    rgb(218, 75, 120),
+    rgb(165, 10, 64)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke-width: calc(1em/16);
+  -webkit-text-stroke-color: transparent;
+  letter-spacing: 0.1em;
+}
+
