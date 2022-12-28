@@ -17,7 +17,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(/Media/Bg.jpg);
+    url(/css/media/Bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -93,7 +93,7 @@ h1{
         rgba(0, 0, 0,0.8) ,
         rgba(0, 0, 0) 100%
       ),
-      url(/Media/profile.jpg);
+      url(/css/media/profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
