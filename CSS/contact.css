@@ -1,0 +1,155 @@
+
+body {
+    background-color: rgba(128, 128, 128, 0.247);
+    margin-top: 10px;
+    background-size: cover;
+    min-height: 100vh;
+  }
+.mainbody {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 54);
+    box-shadow: 0 0 10px white;
+    width: 95%;
+    padding: 2%;
+    margin: 2vh auto 0 auto;
+  }
+  /* The main body blue background box ends here */
+  .mainbody .one {
+    color: antiquewhite;
+    margin: auto auto auto auto;
+    width: 100%;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mainbody .one h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mainbody .one p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(220, 220, 220, 0.568);
+  }
+  .media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 2%;
+    padding-bottom: 8%;
+  }
+  .mainbody .contact a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding-left: 5%;
+  }
+  
+ .media  svg{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    color: antiquewhite;
+  }
+
+  
+
+
+  .mainbody .contact {
+    margin: 30px auto auto auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(245, 245, 245, 0.13);
+    width: 80%;
+    min-width: 300px;
+  }
+  
+  /* the form starts from here  */
+  
+  .mainbody .two {
+    background-color: rgba(212, 211, 211, 0.938);
+    width: 100%;
+    max-width: 630px;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(148, 147, 147);
+    margin: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+  .row-one,
+  .row-two {
+    
+    
+    width: 50%;
+    min-width: 270px;
+  }
+  .row input,
+  .row label {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .row input {
+    margin-top: 8px;
+    font-size: 13px; 
+    line-height: 2em;
+    border-radius: 3px;
+    padding: 3px;
+    padding-left: 10px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.658);
+    outline: none;
+  }
+  .row input:focus{
+    box-shadow: 0 0 2px rgb(7, 7, 54);
+  }
+  .message label {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    border: none;
+    color: rgb(56, 56, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .message textarea {
+    margin-top: 8px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.658);
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    outline: none;
+  }
+  .btn a {
+    background-color: rgb(7, 7, 54); /* Green */
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px auto 0 auto;
+    display: block;
+    width: 150px;
+    border-radius: 4px;
+  }
+  .btn a:hover {
+    box-shadow: 0 0 5px rgb(7, 7, 54);
+    transform: scale(1.1);
+  }
+  

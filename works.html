@@ -1,63 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/works.css">
-    <link rel="stylesheet" href="/css/works_header.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/works.css" />
+    <link rel="stylesheet" href="/css/works_header.css" />
     <script src="/js/header.js" defer></script>
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <title>freeze_my_pose</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-          <a href="/index.html"><img src="/css/media/Frezze my pose.jpg" alt="logo" /></a>
-          <div href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-          <ul class="navlinkContainer">
-            <li class="currentPage"><a  href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="album_designs.html">Album designs</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="contact_us.html">Contact us</a></li>
-          </ul>
-        </nav>
-      </header>
-      <!-- main section starts here -->
-    <main>
-        <h1 class="headh">Photo <span class="gal">Gallery</span></h1>
-        <section class="box">
-          <div class="dream">
-            <img src="/css/media/works/works (1).jpg" />
-            <img src="/css/media/works/works (2).jpg" />
-            <img src="/css/media/works/works (3).jpg" />
-            <img src="/css/media/works/works (4).jpg" />
-            <img src="/css/media/works/works (24).jpg" />
-          </div>
-          <div class="dream">
-            <img src="/css/media/works/works (22).jpg" />
-            <img src="/css/media/works/works (14).jpg" />
-            <img src="/css/media/works/works (7).jpg" />
-            <img src="/css/media/works/works (8).jpg" />
-            
-            <img src="/css/media/works/works (10).jpg" />
-          </div>
-          <div class="dream">
-            <img src="/css/media/works/works (11).jpg" />
-            <img src="/css/media/works/works (13).jpg" />
-            <img src="/css/media/works/works (12).jpg" />
-            <img src="/css/media/works/works (9).jpg" />
-            <img src="/css/media/works/works (15).jpg" />
-          </div>
-        </section>
-        <div class="button">
-          <a href="#">Back to top</a>
+      <nav class="navbar">
+        <a href="/index.html"
+          ><img src="/css/media/Frezze my pose.jpg" alt="logo"
+        /></a>
+        <div href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      </main>
-</body>
+        <ul class="navlinkContainer">
+          <li ><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="album_designs.html">Album designs</a></li>
+          <li class="currentPage"><a href="works.html">Works</a></li>
+          <li><a href="contact_us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main section starts here -->
+    <main>
+      <div class="slidecontainer">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="/css/media/Slider/Slider 1.JPG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/css/media/Slider/Slider 2.JPG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/css/media/Slider/Slider 3.JPG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/css/media/Slider/Slider 4.JPG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/css/media/Slider/Slider 5.JPG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/css/media/Slider/Slider 6.JPG" alt="" />
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <h1 class="headh">Photo <span class="gal">Gallery</span></h1>
+      <section class="box">
+        <div class="dream">
+          <img src="/css/media/works/works (1).jpg" />
+          <img src="/css/media/works/works (2).jpg" />
+          <img src="/css/media/works/works (3).jpg" />
+          <img src="/css/media/works/works (4).jpg" />
+          <img src="/css/media/works/works (24).jpg" />
+        </div>
+        <div class="dream">
+          <img src="/css/media/works/works (22).jpg" />
+          <img src="/css/media/works/works (14).jpg" />
+          <img src="/css/media/works/works (7).jpg" />
+          <img src="/css/media/works/works (8).jpg" />
+
+          <img src="/css/media/works/works (10).jpg" />
+        </div>
+        <div class="dream">
+          <img src="/css/media/works/works (11).jpg" />
+          <img src="/css/media/works/works (13).jpg" />
+          <img src="/css/media/works/works (12).jpg" />
+          <img src="/css/media/works/works (9).jpg" />
+          <img src="/css/media/works/works (15).jpg" />
+        </div>
+      </section>
+      <div class="button">
+        <a href="#">Back to top</a>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        autoplay:{
+          delay:3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+      });
+    </script>
+  </body>
 </html>

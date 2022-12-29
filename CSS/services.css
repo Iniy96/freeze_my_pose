@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 2em;
+}
