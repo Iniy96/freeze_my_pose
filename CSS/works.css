@@ -71,10 +71,12 @@
 
 .slidecontainer{
     width: 60%;
-    height: auto;
+    height: fit-content;
     margin: auto;
     margin-top: 1em;
-    box-shadow: 0 0 15px gray;
+    box-shadow: 0 0 15px black;
+    padding: 0.5em;
+    position: relative;
 }
 .swiper-slide img{
     width: 100%;
