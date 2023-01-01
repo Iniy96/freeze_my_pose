@@ -13,7 +13,7 @@ body {
     box-shadow: 0 0 10px white;
     width: 95%;
     padding: 2%;
-    margin: 2vh auto 0 auto;
+    margin: 5vh auto 0 auto;
   }
   /* The main body blue background box ends here */
   .mainbody .one {
@@ -134,7 +134,7 @@ body {
     color: rgb(56, 56, 56);
     outline: none;
   }
-  .btn a {
+  .btn button {
     background-color: rgb(7, 7, 54); /* Green */
     border: none;
     color: white;
@@ -148,8 +148,9 @@ body {
     width: 150px;
     border-radius: 4px;
   }
-  .btn a:hover {
+  .btn button:hover {
     box-shadow: 0 0 5px rgb(7, 7, 54);
     transform: scale(1.1);
+    cursor: pointer;
   }
   

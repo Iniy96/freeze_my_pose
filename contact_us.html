@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar"></nav>
+      <nav class="navbar">
         <a href="/index.html"
           ><img src="/css/media/Frezze my pose.jpg" alt="logo"
         /></a>
@@ -21,8 +21,8 @@
           <span class="bar"></span>
         </div>
         <ul class="navlinkContainer">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li ><a href="index.html">Home</a></li>
+          <li ><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="album_designs.html">Album designs</a></li>
           <li><a href="works.html">Works</a></li>
@@ -73,7 +73,7 @@
       </section>
       <!-- form starts from here -->
       <section class="two">
-        <form method="#">
+        <form action="https://formsubmit.co/iniyavansivaraj07@gmail.com" method="POST">
           <div class="row">
             <div class="name row-one">
               <label for="name">Your Name</label>
@@ -101,6 +101,7 @@
               <input
                 type="text"
                 id="location"
+                name="location"
                 placeholder="Type the location of the event"
               />
             </div>
@@ -111,7 +112,7 @@
             <textarea name="message" id="message" cols="30" rows="6"></textarea>
           </div>
           <div class="btn">
-            <a role="button" href="#">Submit</a>
+            <button type="submit">Submit</button>
           </div>
         </form>
       </section>
